@@ -1,0 +1,185 @@
+body {
+  background-color: #7600c5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%237600c5' cx='50' cy='0' r='50'/%3E%3Cg fill='%23710bc0' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%236b13bb' cx='50' cy='100' r='50'/%3E%3Cg fill='%236618b6' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23621cb1' cx='50' cy='200' r='50'/%3E%3Cg fill='%235d1fac' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235822a6' cx='50' cy='300' r='50'/%3E%3Cg fill='%235424a1' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2350259b' cx='50' cy='400' r='50'/%3E%3Cg fill='%234c2796' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23492890' cx='50' cy='500' r='50'/%3E%3Cg fill='%2345288b' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23422985' cx='50' cy='600' r='50'/%3E%3Cg fill='%233f2980' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c297a' cx='50' cy='700' r='50'/%3E%3Cg fill='%233a2974' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2337296e' cx='50' cy='800' r='50'/%3E%3Cg fill='%23352968' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23332963' cx='50' cy='900' r='50'/%3E%3Cg fill='%2331285d' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%232f2857' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+@font-face {
+  font-family: myFirstFont;
+  src:url(../fonts/Blueberry\ .ttf)
+}
+h1, h2, h3, h4, h5, h6, p, li, sup, sub, table, tr, td {
+  color: white;
+}
+h1, h2, h3 {
+  font-family: myFirstFont;
+}
+table {
+  border: solid darkgray 2px;
+}
+.topnav {
+background-color: #7600c5;
+}
+.topnav a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-family: myFirstFont;
+}
+.topnav a:hover {
+background-color:#9900ff;
+color: white;
+}   
+.topnav input[type=text] {
+float: none;
+display: block;
+text-align: left;
+width: 100%;
+margin: 0;
+padding: 14px;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+
+.headEr {
+  float: left;
+}
+.img {
+  float: right;
+  border: solid 4px darkgray;
+}
+.float1 {
+  float: left;
+}
+.fieldset {
+  border: solid darkgray 4px;
+  background-color: rgb(154, 172, 172);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto ;
+  grid-gap: .30%;
+  padding: 5px;
+}
+.displayed {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+a.displayed {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div {
+  border: solid darkgray 2px;
+}
+
+.item1 {
+  grid-column: 1 /span 1;
+  grid-row: 1 /span 1;
+}
+.item2 {
+  grid-column: 2 /span 1;
+  grid-row: 1 /span 1;
+}
+.item3 {
+  grid-column: 3 /span 1;
+  grid-row: 1;
+}
+.item4 {
+  grid-column: 4 /span 1;
+  grid-row: 1 /span 1;
+}
+.item5 {
+  grid-column: 5 /span 1;
+  grid-row: 1 /span 1;
+}
+.item6 {
+  grid-column: 6 /span 1;
+  grid-row: 1 /span 1;
+}
+.item7 {
+  grid-column: 1 /span 1;
+  grid-row: 2 /span 1;
+}
+.item8 {
+  grid-column: 2 /span 1;
+  grid-row: 2 /span 1;
+}
+.item9 {
+  grid-column: 3 /span 1;
+  grid-row: 2 /span 1;
+}
+.item10 {
+  grid-column: 1 /span 3;
+  grid-row: 3 /span 2;
+}
+.item11 {
+  grid-column: 4 /span 1;
+  grid-row: 2 /span 1;
+}
+.item12 {
+  grid-column: 5 /span 1;
+  grid-row: 2 /span 1;
+}
+.item13 {
+  grid-column: 6 /span 1;
+  grid-row: 2 /span 1;
+}
+.item14 {
+  grid-column: 4 /span 1;
+  grid-row: 3 /span 1;
+}
+.item15 {
+  grid-column: 5 /span 1;
+  grid-row: 3 /span 1;
+}
+.item16 {
+  grid-column: 6 /span 1;
+  grid-row: 3;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: .30%;
+  padding: 5px;
+}
+.quote1 {
+  grid-column: 1 /span 1;
+  grid-row: 1;
+}
+.quote2 {
+  grid-column: 2 /span 1;
+  grid-row: 1;
+}
+.quote3 {
+  grid-column: 3 /span 1;
+  grid-row: 1;
+}
+.quote4 {
+  grid-column: 1 /span 1;
+  grid-row: 2;
+}
+.quote5 {
+  grid-column: 2 /span 1;
+  grid-row: 2;
+}
+.quote6 {
+  grid-column: 3 /span 1;
+  grid-row: 2;
+}
