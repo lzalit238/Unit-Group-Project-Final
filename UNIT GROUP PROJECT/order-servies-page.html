@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurel's Flowers- Order Service</title>
+    <link rel="stylesheet" href="CSS/group-project.css">
+    <link rel="icon" href="images/flower-icon.png">
+
+
+</head>
+<body>
+    <div class="topnav">
+        <a href="home-page.html">Home</a>
+        <a href="gallery-page.html">Photo Gallery</a>
+        <a href="order-servies-page.html">Order Here</a>
+        <a href="contact-page.html">Contact Us</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        </div>
+      </div>
+
+    <center><h1>ORDERING SERVICE<sup></h1> <h2>Quick and easy deliveries right to your front door!</h2></center>
+    
+    <fieldset class="float1">
+        <form>
+            <legend><h3>Contact Information:</h3></legend>
+            <ul>
+                <li>
+                    <label for="Input First Name">First Name:</label>
+                    <input name="First Name">
+                </li>
+                <li>
+                    <label for="Input Last Name">Last Name:</label>
+                    <input name="Last Name">
+                </li>
+                <li>
+                    <label for="Input Phone Number">Phone Number:</label>
+                    <input name="Phone Number">
+                </li>
+                <li>
+                    <label for="Input Email">Email:</label>
+                    <input name="Email">
+                </li>
+                <li>
+                    <label for="Input Address">Address:</label>
+                    <input name="Address">
+                </li>
+            </ul>
+        </form>
+    </fieldset>
+    
+    <fieldset >
+        <form>
+            <legend><h3>Delivery Details:</h3></legend>
+            <ul>
+                <li><label>Delivery Date:</label><input type="date"></li>
+                <li><label>Delivery Time:</label><input type="time"></li>
+                <sub>*NOTE: YOU CAN ONLY SCHEDULE A DELIVERY 2 WEEKS IN ADVANCE*</sub>
+            </ul>
+        </form>
+    </fieldset>
+    <fieldset >
+        <form>
+            <legend><h3>Add ons (five dollars each):</h3></legend>
+            <ul>
+                <li><input type="checkbox" id="" name="addOn1" value="ribbons"><label>Ribbons</label></li>
+                <li><input type="checkbox" id="" name="addOn2" value="tissue paper"><label>Tissue Paper</label></li>
+                <li><input type="checkbox" id="" name="addOn3" value="glass vase"><label>Glass Vase</label></li>
+            </ul>
+        </form>
+    </fieldset>
+    <fieldset >
+        <form>
+            <legend><h3>Special Order Instructions:</h3></legend>
+            <ul>
+                <li><p>If you want to have the flowers delivered in any special way, fill out the text area below with specific drop-off instructions.</p></li>
+                <li><p>If you wanted to have the flowers displayed in a special way, make sure to drop of any of the extra supplies that are needed to construct it. Leave specific instuctions for your vision of the bouquet. </p></li>
+                <li>
+                    <input type="radio"><label for="Special Instructions">Special Order Instructions:</label>
+                </li>
+                    <textarea name="Special Instructions" style="height:150px; width: 40%"></textarea>
+            </ul>
+            <input type="image" src="images/flower-submit.png" alt="submit" width="75" height="75"> 
+        </form>
+    </fieldset>
+
+</body>
+<footer>
+
+</footer>
+</html>
